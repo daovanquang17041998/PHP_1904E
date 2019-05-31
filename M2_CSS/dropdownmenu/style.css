@@ -11,7 +11,10 @@ ul{
 .body{
     width: 850px;
     margin: 0 auto;
-
+}
+.main-nav .main-menu li{
+    background: coral;
+    float: left;
 }
 header .header{
     background: #6fff63;
@@ -27,13 +30,6 @@ header .main-nav .main-menu{
     margin: 0px;
 
 }
-/*
-.main-nav .main-menu li {
-    background: coral;
-    float: left;
-}
-
- */
 .main-nav .main-menu li a {
     background: bisque;
     font-size: 15px;
@@ -44,20 +40,18 @@ header .main-nav .main-menu{
 }
 
  .main-nav .main-menu li .menu_item{
-    background: #fad9ff;
+    background: #ff2843;
     float: left;
     position: relative;
 
 }
+.main-nav .main-menu li.menu_item:hover ul.submenu{
+    display: block;
+}
 .main-nav .main-menu li .submenu_item{
     position: relative;
 }
-.main-nav .main-menu li .menu_item:hover>ul.submenu{
-    display: block;
-}
-.main-nav .main-menu li .submenu_item:hover>ul.submenu{
-    display: block;
-}
+
 .main-nav .main-menu li a:hover{
     background-color: #ff4336;
 }
@@ -78,8 +72,4 @@ nav li.menu_item .submenu .submenu {
 
 nav .submenu li.submenu_item{
     border-bottom: 1px solid white;
-}
-.main-nav .main-menu li{
-    background: coral;
-    float: left;
 }
