@@ -39,19 +39,10 @@ header .main-nav .main-menu{
     color: #2963ff;
 }
 
- .main-nav .main-menu li .menu_item{
-    background: #ff2843;
-    float: left;
-    position: relative;
 
-}
 .main-nav .main-menu li.menu_item:hover ul.submenu{
     display: block;
 }
-.main-nav .main-menu li .submenu_item{
-    position: relative;
-}
-
 .main-nav .main-menu li a:hover{
     background-color: #ff4336;
 }
@@ -61,6 +52,12 @@ nav li.menu_item > .submenu {
     position: absolute;
     top: 40px;
     left: 0;
+}
+.main-nav .main-menu li .menu_item{
+    background: #ff2843;
+    float: left;
+    position: relative;
+
 }
 nav li.menu_item .submenu .submenu {
     display: none;
