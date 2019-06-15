@@ -286,6 +286,7 @@ margin-bottom: 0px;
 }
 .main-content .content-one-one{
     margin-top: 40px;
+    vertical-align: middle ;
 }
 .h1{
     margin-left: 50px ;
@@ -314,4 +315,20 @@ margin-bottom: 0px;
 
 .main-content .content-zero .content-zero-right{
     margin-top: 30px;
+}
+.content-zero-left{
+    position: relative;
+    background-color: #eaeaea;
+}
+.content-zero-left img{
+    border: 5px solid whitesmoke;
+}
+.content-zero-left .intro1{
+    z-index: 1;
+    position: absolute;
+}
+.content-zero-left .intro2{
+    margin-top: 70px;
+    z-index: 2;
+    position: absolute;
 }
