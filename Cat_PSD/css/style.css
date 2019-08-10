@@ -288,7 +288,7 @@ margin-bottom: 0px;
     margin-top: 40px;
     vertical-align: middle ;
 }
-.h1{
+.content-one-one .h1{
     margin-left: 50px ;
     padding-bottom: 30px;
     clear: both;
@@ -317,18 +317,22 @@ margin-bottom: 0px;
     margin-top: 30px;
 }
 .content-zero-left{
-    position: relative;
     background-color: #eaeaea;
 }
 .content-zero-left img{
     border: 5px solid whitesmoke;
 }
 .content-zero-left .intro1{
+    width: auto;
+    height: auto;
     z-index: 1;
     position: absolute;
 }
 .content-zero-left .intro2{
-    margin-top: 70px;
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+    margin-left: 150px;
     z-index: 2;
     position: absolute;
 }
